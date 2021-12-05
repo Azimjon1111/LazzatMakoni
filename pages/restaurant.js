@@ -12,14 +12,14 @@ function classNames(...classes) {
 const Index =()=>{
     const menu =[{}]
 const [data, setData] = useState([
-    {src: 'https://i.ytimg.com/vi/l636yg-glyk/maxresdefault.jpg', name: 'Shovurma', price: '15'},
-    {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Club_sandwich.png/1200px-Club_sandwich.png', name: 'Sendwinch', price: '20'},
-    {src: 'https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_27/1586836/hotdogs-te-square-200702.jpg', name: 'Xot dog', price: '12'},
-    {src: 'https://www.joc.com/sites/default/files/field_feature_image/KFC_0.png', name: 'Chiccken', price: '5'},
-    {src: 'https://img.povar.ru/main/64/12/b0/54/kartofel_fri_v_domashnih_usloviyah-36496.jpg', name: 'Free', price: '3'},
-    {src: 'https://makepedia.uz/wp-content/uploads/2018/02/Pizza.jpg', name: 'Pizza', price: '8'},
-    {src: 'https://static3.depositphotos.com/1001450/255/i/600/depositphotos_2552347-stock-photo-hamburger-on-a-white-background.jpg', name: 'Burger', price: '7'},
-    {src: 'https://st.depositphotos.com/1102480/1589/i/600/depositphotos_15890699-stock-photo-big-hamburger.jpg', name: 'Burger', price: '12'},
+    {src: 'https://i.ytimg.com/vi/l636yg-glyk/maxresdefault.jpg', name: 'Shovurma', price: '15 000'},
+    {src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Club_sandwich.png/1200px-Club_sandwich.png', name: 'Sendwinch', price: '20 000'},
+    {src: 'https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_27/1586836/hotdogs-te-square-200702.jpg', name: 'Xot dog', price: '12 000'},
+    {src: 'https://www.joc.com/sites/default/files/field_feature_image/KFC_0.png', name: 'Chiccken', price: '25 000'},
+    {src: 'https://img.povar.ru/main/64/12/b0/54/kartofel_fri_v_domashnih_usloviyah-36496.jpg', name: 'Free', price: '30 000'},
+    {src: 'https://makepedia.uz/wp-content/uploads/2018/02/Pizza.jpg', name: 'Pizza', price: '25 000'},
+    {src: 'https://static3.depositphotos.com/1001450/255/i/600/depositphotos_2552347-stock-photo-hamburger-on-a-white-background.jpg', name: 'Burger', price: '17 000'},
+    {src: 'https://st.depositphotos.com/1102480/1589/i/600/depositphotos_15890699-stock-photo-big-hamburger.jpg', name: 'Burger', price: '19 000'},
 
 ])
 const [qwerty, setQwerty]= useState([])
@@ -40,7 +40,7 @@ console.log(data)
             <div className="ml-2">
                 <h1 className="font-bold text-2xl">{el.name}</h1>
                 <p className="font-bold text-xl">Cheese, tomatoes, tuna fish, sweetcorn and italian herbs</p>
-                <p className="font-bold text-xl">{el.price}$</p>
+                <p className="font-bold text-xl">{el.price} so`m</p>
             </div>
             </div>))}
         </div>
