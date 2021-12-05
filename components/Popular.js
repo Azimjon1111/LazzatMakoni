@@ -2,11 +2,11 @@ import {StarIcon} from '@heroicons/react/outline'
 import Link from 'next/link'
 const data =[
     {src: 'https://www.gazeta.uz/media/img/2019/06/rq8LP515599976566958_l.jpg', name: 'OQTEPA LAVASH', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
-    {src: 'https://www.afisha.uz/ui/catalog/2020/09/0391971.jpeg', name: 'OQTEPA LAVASH', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
-    {src: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_Paul.png', name: 'OQTEPA LAVASH', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
-    {src: 'https://dostavkainfo.uz/wp-content/uploads/2020/03/bon.jpg', name: 'OQTEPA LAVASH', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
-    {src: 'https://play-lh.googleusercontent.com/2owmffIC3y5PKPMcmye1Olab0qhg3hnnU8ymBlrrg4Hv5hCOQBCR2NunldYsvEzZKet6', name: 'OQTEPA LAVASH', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
-    {src: 'http://foodbakery.chimpgroup.com/wp-content/uploads/fb-restaurant-13-1.png', name: 'OQTEPA LAVASH', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
+    {src: 'https://www.afisha.uz/ui/catalog/2020/09/0391971.jpeg', name: 'Basri baba', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
+    {src: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_Paul.png', name: 'PAUL', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
+    {src: 'https://dostavkainfo.uz/wp-content/uploads/2020/03/bon.jpg', name: 'BON', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
+    {src: 'https://play-lh.googleusercontent.com/2owmffIC3y5PKPMcmye1Olab0qhg3hnnU8ymBlrrg4Hv5hCOQBCR2NunldYsvEzZKet6', name: 'EVOS', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
+    {src: 'http://foodbakery.chimpgroup.com/wp-content/uploads/fb-restaurant-13-1.png', name: 'KFC', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
 ]
 const TopRes = ()=>{
 return(

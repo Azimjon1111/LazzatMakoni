@@ -4,12 +4,7 @@ import {StarIcon} from '@heroicons/react/outline'
 import Link from 'next/link'
 import "react-multi-carousel/lib/styles.css";
 const data = [
-    {src:"https://www.escoffier.edu/wp-content/uploads/2016/02/Smiling-female-chef-with-white-hat-and-uniform-in-a-kitchen-e1611773135718.jpg", company: 'OQTEPA LAVASH' ,name: 'Nargiza Suyunova'},
     {src:"https://nationaltoday.com/wp-content/uploads/2021/07/shutterstock_1518533924-min.jpg", company: 'OQTEPA LAVASH' , name: 'Doniyor Qayumov'},
-    {src:"https://cdn.saffire.com/images.ashx?t=ig&rid=BaltimoreCC&i=Chef_for_Centerplate_page_on_site(2)(1).jpg", company: 'OQTEPA LAVASH ' ,name: 'Abduvaitov Umarbek'},
-    {src:"https://www.escoffier.edu/wp-content/uploads/2016/02/Smiling-female-chef-with-white-hat-and-uniform-in-a-kitchen-e1611773135718.jpg", company: 'OQTEPA LAVASH' ,name: 'Nargiza Suyunova'},
-    {src:"https://nationaltoday.com/wp-content/uploads/2021/07/shutterstock_1518533924-min.jpg", company: 'OQTEPA LAVASH' , name: 'Doniyor Qayumov'},
-    {src:"https://cdn.saffire.com/images.ashx?t=ig&rid=BaltimoreCC&i=Chef_for_Centerplate_page_on_site(2)(1).jpg", company: 'OQTEPA LAVASH ' ,name: 'Abduvaitov Umarbek'},
 ]
 const responsive = {
   superLargeDesktop: {
