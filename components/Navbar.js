@@ -31,11 +31,13 @@ export default function Example() {
                     src="/lazzat-removebg-preview.jpg"
                     alt="Workflow"
                   />
+                  <a href="/">
                   <img
                     className="hidden lg:block h-20 w-40"
                     src="/lazzat-removebg-preview.jpg"
                     alt="Workflow"
-                  />
+                    />
+                    </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}

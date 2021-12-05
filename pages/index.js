@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import TopRes from '../components/TopRes'
 import Popular from '../components/Popular'
 import Chefs from '../components/Chef'
+import Meals from '../components/Meals'
 export default function Home() {
   return (
     <div>
@@ -16,9 +17,10 @@ export default function Home() {
   <main className="font-lora font-extrabold">
     <Navbar/>
     <Header/>
-    <TopRes/>
+    <Meals/>
     <Popular/>
     <Chefs/>
+    <TopRes/>
   </main>
     </div>
   )
