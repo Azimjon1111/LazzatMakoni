@@ -44,6 +44,13 @@ const Chefs = ()=>{
     <div className="flex justify-center ">
     <button className="text-center text-myBlack bg-second rounded-md px-4 py-2 my-2 font-black mt-4 font-montserrat text-white">{el.company}</button>
     </div>
+    <section className="flex justify-center w-40 mx-auto">
+              <StarIcon className="text-yellow-500"/>
+              <StarIcon className="text-yellow-500"/> 
+              <StarIcon className="text-yellow-500"/> 
+              <StarIcon className="text-yellow-500"/> 
+              <StarIcon className="text-yellow-500"/> 
+    </section>
     <p className="text-center mx-4 text-myBlack font-black font-montserrat text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae consequat mauris. Nulla nulla diam, laoreet vitae massa sit amet, placerat facilisis nulla.</p>
     </div>
     </div>

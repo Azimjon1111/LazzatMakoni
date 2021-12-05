@@ -1,3 +1,4 @@
+import Link from 'next/link'
 const data =[
     {src: 'https://www.gazeta.uz/media/img/2019/06/rq8LP515599976566958_l.jpg'},
     {src: 'https://www.afisha.uz/ui/catalog/2020/09/0391971.jpeg'},
@@ -15,9 +16,9 @@ return(
     <p className="font-bold text-3xl mt-4">Explore restaurants, bars, and cafés by locality</p>
     <div className="space-x-4 mt-10 flex justify-between w-3/5">
     {data.map((el)=>(
-        <>
-        <img src={el.src} className="w-48 h-40 rounded-md" />
-        </>
+        <Link href="/restaurant">
+        <img src={el.src} className="w-48 h-40 rounded-md cursor-pointer" />
+        </Link>
     ))}
     </div>
     </div> 

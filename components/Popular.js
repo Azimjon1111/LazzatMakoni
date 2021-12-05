@@ -1,5 +1,5 @@
 import {StarIcon} from '@heroicons/react/outline'
-
+import Link from 'next/link'
 const data =[
     {src: 'https://www.gazeta.uz/media/img/2019/06/rq8LP515599976566958_l.jpg', name: 'OQTEPA LAVASH', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
     {src: 'https://www.afisha.uz/ui/catalog/2020/09/0391971.jpeg', name: 'OQTEPA LAVASH', type: 'Type of food : Carrot Juice, Fresh Juice, Tea', number: '12'},
@@ -12,12 +12,12 @@ const TopRes = ()=>{
 return(
     <div className= " flex justify-center w-11/12 mx-auto font-black">
     <div>
-    <h1 className="font-bold mt-10 text-4xl text-center">Top Restaurants</h1>
+    <h1 className="font-bold mt-10 text-4xl text-center">Top Places</h1>
     <p className="font-bold mt-4 text-4xl text-center">Explore restaurants, bars, and cafés by locality</p>
     <div className="w-full grid grid-cols-3 mx-4">
     {data.map((el)=>(
         <div style={{width: '500px'}} className=" flex justify-around my-10 border-second border-2 rounded-md">
-        <img src={el.src} className="w-48 h-40 rounded-md  my-5 mx-10" />
+        <img src={el.src} className="w-48 h-40 rounded-md  my-5 mx-10 cursor-pointer" />
         <div className="my-10 mx-10">
             <div className="flex justify-between">
                 <StarIcon className="text-yellow-500" />
@@ -27,7 +27,9 @@ return(
                 <StarIcon className="text-yellow-500" />
                 <p>({el.number})</p>
             </div>
-            <h1>{el.name}</h1>
+            <Link href="/restaurant">
+            <h1 className="hover:underline cursor-pointer">{el.name}</h1>
+            </Link>
             <p>{el.type}</p>
         </div>
         </div>
