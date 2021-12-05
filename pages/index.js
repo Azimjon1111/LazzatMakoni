@@ -6,6 +6,7 @@ import TopRes from '../components/TopRes'
 import Popular from '../components/Popular'
 import Chefs from '../components/Chef'
 import Meals from '../components/Meals'
+import MainFooter from '../components/mainFooter'
 export default function Home() {
   return (
     <div>
@@ -20,7 +21,8 @@ export default function Home() {
     <Meals/>
     <Popular/>
     <Chefs/>
-    <TopRes/>
+    <MainFooter/>
+    {/* <TopRes/> */}
   </main>
     </div>
   )
