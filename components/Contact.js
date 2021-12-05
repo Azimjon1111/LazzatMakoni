@@ -1,6 +1,7 @@
 import { Map, Placemark, YMaps } from "react-yandex-maps"
 import react, {useState, useEffect} from 'react'
 import SuccesAlert from 'react-bootstrap-sweetalert'
+import {StarIcon} from '@heroicons/react/outline'
 import DangerAlert from 'react-bootstrap-sweetalert'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -135,6 +136,15 @@ const Contact = ()=>{
                   onChange={(e)=>{setMessage(e.target.value)}}
                 />
               </div>
+              <div className="my-2">
+            <div className="flex justify-between w-40">
+                <StarIcon className="text-yellow-500" />
+                <StarIcon className="text-yellow-500" />
+                <StarIcon className="text-yellow-500" />
+                <StarIcon className="text-yellow-500" />
+                <StarIcon className="text-yellow-500" />
+            </div>
+        </div>
               <div>
               <div class="login-box">
   <form>
