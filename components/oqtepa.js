@@ -29,7 +29,7 @@ const Chefs = ()=>{
     return(
     <>
     <div className="my-20 mx-40">
-        <h1 className="text-center my-10 text-4xl font-lora">Chefs</h1>
+        <h1 className="text-center my-10 text-4xl font-lora">Chef</h1>
 <Carousel responsive={responsive}>
     {data.map((el)=>(
             <div className="mx-10">

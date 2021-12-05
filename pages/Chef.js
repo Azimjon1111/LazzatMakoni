@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import Comments from '../components/comments'
+import Contact from '../components/Contact'
 const Index =()=>{
     return(
         <>
@@ -15,6 +16,7 @@ const Index =()=>{
             </div>
         </div>
         <Comments/>
+        <Contact/>
         </>
     )
 }

@@ -102,7 +102,7 @@ const Contact = ()=>{
    </YMaps>
       </div>
    <div className="bg-white border-myBlue border-t-2 shadow-xl rounded-sm w-2/5 py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
-            <h1 className="text-center text-myBlack mb-4 text-2xl">Biz bilan bog'laning</h1>
+            <h1 className="text-center text-myBlack mb-4 text-2xl">Add comment</h1>
           <div className="max-w-lg mx-auto lg:max-w-none">
             <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
               <div>
@@ -118,21 +118,6 @@ const Contact = ()=>{
                   className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-2 focus:border-indigo-500 border-myBlue rounded-md"
                   placeholder="Ism"
                   onChange={(e)=>{setName(e.target.value)}}
-                />
-              </div>
-              <div>
-                <label htmlFor="phone" className="sr-only">
-                  Phone
-                </label>
-                <input
-                value={phone}
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  autoComplete="tel"
-                  className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 border-2 focus:border-indigo-500 border-myBlue rounded-md"
-                  placeholder="Telefon raqam"
-                  onChange={(e)=>{setPhone(e.target.value)}}
                 />
               </div>
               <div>

@@ -1,7 +1,6 @@
 import React, {useRef, useState, useEffect} from "react";
 import Carousel from "react-multi-carousel";
 import {StarIcon} from '@heroicons/react/outline'
-
 import "react-multi-carousel/lib/styles.css";
 const data = [
     {src:"https://www.escoffier.edu/wp-content/uploads/2016/02/Smiling-female-chef-with-white-hat-and-uniform-in-a-kitchen-e1611773135718.jpg", company: 'Poul' ,name: 'Qosimov Abdushukur'},
