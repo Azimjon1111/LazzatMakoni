@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Link from 'next/link'
 import Contact from '../components/Contact'
 import Comments from '../components/comments'
+import Oqtepa from '../components/oqtepa'
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
@@ -44,6 +45,7 @@ console.log(data)
             </div>))}
         </div>
     </div>
+    <Oqtepa/>
     <div className="my-40">
     <Comments/>
     </div>
