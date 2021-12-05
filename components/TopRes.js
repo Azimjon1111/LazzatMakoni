@@ -9,10 +9,10 @@ const data =[
 ]
 const TopRes = ()=>{
 return(
-    <div className= " flex justify-center w-3/5 mx-auto">
+    <div className= " flex justify-center w-3/5 mx-auto mb-10">
     <div>
-    <h1 className="font-bold mt-10">Top Restaurants</h1>
-    <p className="font-bold mt-4">Explore restaurants, bars, and cafés by locality</p>
+    <h1 className="font-bold text-4xl mt-10">Top Restaurants</h1>
+    <p className="font-bold text-3xl mt-4">Explore restaurants, bars, and cafés by locality</p>
     <div className="space-x-4 mt-10 flex justify-between w-3/5">
     {data.map((el)=>(
         <>

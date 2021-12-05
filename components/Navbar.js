@@ -48,8 +48,8 @@ export default function Example() {
                     <>
                       <div>
                         <Menu.Button className="bg-white flex text-sm ">
-                            <CakeIcon className="block h-5 w-5" aria-hidden="true"/>
-                         <p className="ml-1">Meals</p>
+                        <LocationMarkerIcon className="block h-5 w-5" aria-hidden="true"/>
+                         <p className="ml-1">Places</p>
                         </Menu.Button>
                       </div>
                       <Transition

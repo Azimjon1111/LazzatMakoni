@@ -12,8 +12,8 @@ const TopRes = ()=>{
 return(
     <div className= " flex justify-center w-11/12 mx-auto font-black">
     <div>
-    <h1 className="font-bold mt-10 text-center">Top Restaurants</h1>
-    <p className="font-bold mt-4 text-center">Explore restaurants, bars, and cafés by locality</p>
+    <h1 className="font-bold mt-10 text-4xl text-center">Top Restaurants</h1>
+    <p className="font-bold mt-4 text-4xl text-center">Explore restaurants, bars, and cafés by locality</p>
     <div className="w-full grid grid-cols-3 mx-4">
     {data.map((el)=>(
         <div style={{width: '500px'}} className=" flex justify-around my-10 border-second border-2 rounded-md">
