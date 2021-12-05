@@ -37,7 +37,7 @@ const Contact = ()=>{
   }
   console.log(name)
     return(
-        <div className="mx-10 my-20 mt-10 flex justify-between"> 
+        <div className="mx-10 my-20 mt-40 flex justify-between"> 
         <SuccesAlert
         show={showSuccess}
         success 
@@ -55,21 +55,6 @@ const Contact = ()=>{
         >
         </DangerAlert>
         <div>
-        <div>
-            <h1 className="text-2xl mb-4 text-myBlue">| Ish Vaqtlari</h1>
-            {
-              data.map((el)=>(
-                  <>
-              <div className="w-96 flex justify-between">
-              <div>{el.week}</div> 
-              <hr className="my-1"/>
-              <div className="text-">	{el.time}</div>
-            </div>
-            <hr className="h-0.5 bg-myBlue"/>
-            </>
-              ))
-            }
-          </div>
           <div>
             <h1 className="text-2xl mb-4 text-myBlue mt-10">| Biz bilan bog'lanish</h1>
             <div className="space-y-5">
