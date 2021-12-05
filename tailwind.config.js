@@ -44,7 +44,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        purplish: "#f9f7fe",
+        first: "#c08c64",
+        second: "#714336",
         lightGreen: "#bcf5bc",
       },
       margin: {
@@ -61,10 +62,7 @@ module.exports = {
       calibri: ["Calibri"],
     },
     backgroundImage: (theme) => ({
-      "landing-header": "url('/img/header-bg.png')",
-      "clinic-bg": "url('/img/surface.png')",
-      "scanner-bg": "url('/img/Rectangle.png')",
-      "header-404": "url('/img/header-404.png')",
+      "landing-header": "url('/uzb.jpg')"
     }),
   },
   variants: {
